@@ -1,6 +1,0 @@
-
-2023-01-02 15:05:33,990 Downloading and reading test artifact
-2023-01-02 15:05:36,425 Extracting target from dataframe
-2023-01-02 15:05:36,428 Downloading and reading the exported model
-[34m[1mwandb[39m[22m:   6 of 6 files downloaded.
-2023-01-02 15:05:38,522 Scoring
