@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/mlruns/0/6477e6ba8fea4d51a92720fc8acc7ed1/artifacts
+end_time: 1672668344681
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6477e6ba8fea4d51a92720fc8acc7ed1
+run_name: amazing-duck-61
+run_uuid: 6477e6ba8fea4d51a92720fc8acc7ed1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672668216046
+status: 3
+tags: []
+user_id: philipherp

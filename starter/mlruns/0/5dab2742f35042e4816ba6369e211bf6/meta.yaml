@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/mlruns/0/5dab2742f35042e4816ba6369e211bf6/artifacts
+end_time: 1672667702136
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5dab2742f35042e4816ba6369e211bf6
+run_name: nebulous-gnu-105
+run_uuid: 5dab2742f35042e4816ba6369e211bf6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672667686450
+status: 3
+tags: []
+user_id: philipherp

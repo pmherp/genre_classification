@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/mlruns/0/e2337742741548d887123596842141b6/artifacts
+end_time: 1672668131345
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e2337742741548d887123596842141b6
+run_name: resilient-finch-35
+run_uuid: e2337742741548d887123596842141b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672668124550
+status: 4
+tags: []
+user_id: philipherp

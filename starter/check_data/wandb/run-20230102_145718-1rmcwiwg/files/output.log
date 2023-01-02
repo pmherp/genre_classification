@@ -1,0 +1,20 @@
+
+<frozen importlib._bootstrap>:1049: ImportWarning: ImportHookFinder.find_spec() not found; falling back to find_module()
+[1m===================================================================================================== test session starts ======================================================================================================
+platform darwin -- Python 3.11.0, pytest-7.2.0, pluggy-1.0.0 -- /Users/philipherp/opt/anaconda3/envs/mlflow-c8dc1cec297b33265a999b1cc66226a2175a8e3b/bin/python3.11
+cachedir: .pytest_cache
+rootdir: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/check_data
+[1mcollected 4 items                                                                                                                                                                                                              
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [32mPASSED
+test_data.py::test_column_ranges [32mPASSED
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[33m======================================================================================================= warnings summary =======================================================================================================
+test_data.py::test_column_presence_and_type
+  /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/check_data/conftest.py:29: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+    sample1 = pd.read_csv(local_path)
+test_data.py::test_column_presence_and_type
+  /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/check_data/conftest.py:32: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+    sample2 = pd.read_csv(local_path)
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m================================================================================================ [32m4 passed[39m, [33m[1m2 warnings[22m in 2.89s =================================================================================================

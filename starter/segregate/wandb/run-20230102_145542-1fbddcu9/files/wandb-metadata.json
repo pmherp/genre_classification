@@ -1,0 +1,55 @@
+{
+    "os": "macOS-13.0.1-x86_64-i386-64bit",
+    "python": "3.11.0",
+    "heartbeatAt": "2023-01-02T13:55:43.650343",
+    "startedAt": "2023-01-02T13:55:42.982713",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/segregate/run.py",
+    "codePath": "starter/segregate/run.py",
+    "git": {
+        "remote": "https://github.com/pmherp/genre_classification.git",
+        "commit": "9936aa10d27fac34eece36bf631f22f4d6bc0cfc"
+    },
+    "email": null,
+    "root": "/Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification",
+    "host": "MBP-von-Philip.fritz.box",
+    "username": "philipherp",
+    "executable": "/Users/philipherp/opt/anaconda3/envs/mlflow-2b2156cf972745eb04a9fbeb71952cc35dc54ca7/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 8.218456268310547
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

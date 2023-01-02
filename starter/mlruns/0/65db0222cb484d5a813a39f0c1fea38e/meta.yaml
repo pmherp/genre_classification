@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/mlruns/0/65db0222cb484d5a813a39f0c1fea38e/artifacts
+end_time: 1672667582446
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65db0222cb484d5a813a39f0c1fea38e
+run_name: spiffy-cat-448
+run_uuid: 65db0222cb484d5a813a39f0c1fea38e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672667399485
+status: 4
+tags: []
+user_id: philipherp

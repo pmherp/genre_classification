@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/mlruns/0/2712968157cf4320a318a65d1b46c8e3/artifacts
+end_time: 1672668124515
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2712968157cf4320a318a65d1b46c8e3
+run_name: worried-worm-740
+run_uuid: 2712968157cf4320a318a65d1b46c8e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672668088064
+status: 3
+tags: []
+user_id: philipherp

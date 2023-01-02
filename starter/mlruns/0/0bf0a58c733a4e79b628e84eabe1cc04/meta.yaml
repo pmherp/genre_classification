@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/mlruns/0/0bf0a58c733a4e79b628e84eabe1cc04/artifacts
+end_time: 1672668051510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bf0a58c733a4e79b628e84eabe1cc04
+run_name: debonair-panda-421
+run_uuid: 0bf0a58c733a4e79b628e84eabe1cc04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672668037987
+status: 3
+tags: []
+user_id: philipherp

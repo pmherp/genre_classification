@@ -1,0 +1,26 @@
+2023-01-02 15:01:33,013 INFO    MainThread:7847 [wandb_setup.py:_flush():68] Configure stats pid to 7847
+2023-01-02 15:01:33,014 INFO    MainThread:7847 [wandb_setup.py:_flush():68] Loading settings from /Users/philipherp/.config/wandb/settings
+2023-01-02 15:01:33,014 INFO    MainThread:7847 [wandb_setup.py:_flush():68] Loading settings from /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/settings
+2023-01-02 15:01:33,014 INFO    MainThread:7847 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'project': 'exercise_14', 'run_group': 'dev', '_require_service': 'True'}
+2023-01-02 15:01:33,014 INFO    MainThread:7847 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'starter/random_forest/run.py', 'program': '/Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/run.py'}
+2023-01-02 15:01:33,014 INFO    MainThread:7847 [wandb_init.py:_log_setup():476] Logging user logs to /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/logs/debug.log
+2023-01-02 15:01:33,014 INFO    MainThread:7847 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/logs/debug-internal.log
+2023-01-02 15:01:33,015 INFO    MainThread:7847 [wandb_init.py:init():516] calling init triggers
+2023-01-02 15:01:33,015 INFO    MainThread:7847 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-01-02 15:01:33,015 INFO    MainThread:7847 [wandb_init.py:init():569] starting backend
+2023-01-02 15:01:33,015 INFO    MainThread:7847 [wandb_init.py:init():573] setting up manager
+2023-01-02 15:01:33,018 INFO    MainThread:7847 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-01-02 15:01:33,021 INFO    MainThread:7847 [wandb_init.py:init():580] backend started and connected
+2023-01-02 15:01:33,024 INFO    MainThread:7847 [wandb_init.py:init():658] updated telemetry
+2023-01-02 15:01:33,057 INFO    MainThread:7847 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-02 15:01:33,537 INFO    MainThread:7847 [wandb_run.py:_on_init():2006] communicating current version
+2023-01-02 15:01:33,690 INFO    MainThread:7847 [wandb_run.py:_on_init():2010] got version response 
+2023-01-02 15:01:33,690 INFO    MainThread:7847 [wandb_init.py:init():728] starting run threads in backend
+2023-01-02 15:01:35,701 INFO    MainThread:7847 [wandb_run.py:_console_start():1986] atexit reg
+2023-01-02 15:01:35,702 INFO    MainThread:7847 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-01-02 15:01:35,702 INFO    MainThread:7847 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-01-02 15:01:35,702 INFO    MainThread:7847 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-01-02 15:01:35,702 INFO    MainThread:7847 [wandb_init.py:init():765] run started, returning control to user process
+2023-01-02 15:01:36,996 INFO    MainThread:7847 [wandb_run.py:_config_callback():1163] config_cb None None {'random_forest': {'n_estimators': 100, 'criterion': 'gini', 'max_depth': 13, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.0, 'max_features': 'auto', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'bootstrap': True, 'oob_score': False, 'n_jobs': None, 'random_state': 42, 'verbose': 0, 'warm_start': False, 'class_weight': 'balanced', 'ccp_alpha': 0.0, 'max_samples': None}, 'tfidf': {'max_features': 10}, 'features': {'numerical': ['danceability', 'energy', 'loudness', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms'], 'categorical': ['time_signature', 'key'], 'nlp': ['text_feature']}, 'export_artifact': 'model_export'}
+2023-01-02 15:02:04,067 WARNING MsgRouterThr:7847 [router.py:message_loop():77] message_loop has been closed

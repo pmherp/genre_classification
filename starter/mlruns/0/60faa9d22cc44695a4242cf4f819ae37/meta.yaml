@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/mlruns/0/60faa9d22cc44695a4242cf4f819ae37/artifacts
+end_time: 1672667418721
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60faa9d22cc44695a4242cf4f819ae37
+run_name: salty-donkey-344
+run_uuid: 60faa9d22cc44695a4242cf4f819ae37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672667405691
+status: 3
+tags: []
+user_id: philipherp

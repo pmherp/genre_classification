@@ -1,0 +1,51 @@
+{
+    "os": "macOS-13.0.1-x86_64-i386-64bit",
+    "python": "3.11.0",
+    "heartbeatAt": "2023-01-02T13:57:05.556567",
+    "startedAt": "2023-01-02T13:57:04.882337",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Data as preprocessed"
+    ],
+    "state": "running",
+    "program": "/Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/preprocess/run.py",
+    "codePath": "starter/preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/pmherp/genre_classification.git",
+        "commit": "9936aa10d27fac34eece36bf631f22f4d6bc0cfc"
+    },
+    "email": null,
+    "root": "/Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification",
+    "host": "MBP-von-Philip.fritz.box",
+    "username": "philipherp",
+    "executable": "/Users/philipherp/opt/anaconda3/envs/mlflow-c7e3500d46ad1245d79edba3f96db6e9e0db7085/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 8.218456268310547
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

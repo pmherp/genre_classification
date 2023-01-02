@@ -13,10 +13,10 @@ from mlflow.models import infer_signature
 from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import roc_auc_score, plot_confusion_matrix
+from sklearn.metrics import roc_auc_score #, plot_confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler, FunctionTransformer
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import wandb
 from sklearn.pipeline import Pipeline, make_pipeline
 from sklearn.impute import SimpleImputer
@@ -69,26 +69,26 @@ def go(args):
         export_model(run, pipe, used_columns, X_val, pred, args.export_artifact)
 
     # Some useful plots
-    fig_feat_imp = plot_feature_importance(pipe)
+    #fig_feat_imp = plot_feature_importance(pipe)
 
-    fig_cm, sub_cm = plt.subplots(figsize=(10, 10))
-    plot_confusion_matrix(
-        pipe,
-        X_val[used_columns],
-        y_val,
-        ax=sub_cm,
-        normalize="true",
-        values_format=".1f",
-        xticks_rotation=90,
-    )
-    fig_cm.tight_layout()
+    #fig_cm, sub_cm = plt.subplots(figsize=(10, 10))
+    #plot_confusion_matrix(
+        #pipe,
+        #X_val[used_columns],
+        #y_val,
+        #ax=sub_cm,
+        #normalize="true",
+        #values_format=".1f",
+        #xticks_rotation=90,
+    #)
+    #fig_cm.tight_layout()
 
-    run.log(
-        {
-            "feature_importance": wandb.Image(fig_feat_imp),
-            "confusion_matrix": wandb.Image(fig_cm),
-        }
-    )
+    #run.log(
+        #{
+            #"feature_importance": wandb.Image(fig_feat_imp),
+            #"confusion_matrix": wandb.Image(fig_cm),
+        #}
+    #)
 
 
 def export_model(run, pipe, used_columns, X_val, val_pred, export_artifact):
@@ -124,26 +124,26 @@ def export_model(run, pipe, used_columns, X_val, val_pred, export_artifact):
         artifact.wait()
 
 
-def plot_feature_importance(pipe):
+#def plot_feature_importance(pipe):
 
     # We collect the feature importance for all non-nlp features first
-    feat_names = np.array(
-        pipe["preprocessor"].transformers[0][-1]
-        + pipe["preprocessor"].transformers[1][-1]
-    )
-    feat_imp = pipe["classifier"].feature_importances_[: len(feat_names)]
+    #feat_names = np.array(
+        #pipe["preprocessor"].transformers[0][-1]
+        #+ pipe["preprocessor"].transformers[1][-1]
+    #)
+    #feat_imp = pipe["classifier"].feature_importances_[: len(feat_names)]
     # For the NLP feature we sum across all the TF-IDF dimensions into a global
     # NLP importance
-    nlp_importance = sum(pipe["classifier"].feature_importances_[len(feat_names) :])
-    feat_imp = np.append(feat_imp, nlp_importance)
-    feat_names = np.append(feat_names, "title + song_name")
-    fig_feat_imp, sub_feat_imp = plt.subplots(figsize=(10, 10))
-    idx = np.argsort(feat_imp)[::-1]
-    sub_feat_imp.bar(range(feat_imp.shape[0]), feat_imp[idx], color="r", align="center")
-    _ = sub_feat_imp.set_xticks(range(feat_imp.shape[0]))
-    _ = sub_feat_imp.set_xticklabels(feat_names[idx], rotation=90)
-    fig_feat_imp.tight_layout()
-    return fig_feat_imp
+    #nlp_importance = sum(pipe["classifier"].feature_importances_[len(feat_names) :])
+    #feat_imp = np.append(feat_imp, nlp_importance)
+    #feat_names = np.append(feat_names, "title + song_name")
+    #fig_feat_imp, sub_feat_imp = plt.subplots(figsize=(10, 10))
+    #idx = np.argsort(feat_imp)[::-1]
+    #sub_feat_imp.bar(range(feat_imp.shape[0]), feat_imp[idx], color="r", align="center")
+    #_ = sub_feat_imp.set_xticks(range(feat_imp.shape[0]))
+    #_ = sub_feat_imp.set_xticklabels(feat_names[idx], rotation=90)
+    #fig_feat_imp.tight_layout()
+    #return fig_feat_imp
 
 
 def get_training_inference_pipeline(args):

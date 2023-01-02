@@ -1,0 +1,188 @@
+2023-01-02 15:01:33,067 INFO    StreamThr :7856 [internal.py:wandb_internal():87] W&B internal server running at pid: 7856, started at: 2023-01-02 15:01:33.065317
+2023-01-02 15:01:33,069 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: status
+2023-01-02 15:01:33,071 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: status
+2023-01-02 15:01:33,072 INFO    WriterThread:7856 [datastore.py:open_for_write():75] open: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/run-2oesu2vu.wandb
+2023-01-02 15:01:33,073 DEBUG   SenderThread:7856 [sender.py:send():303] send: header
+2023-01-02 15:01:33,073 DEBUG   SenderThread:7856 [sender.py:send():303] send: run
+2023-01-02 15:01:33,539 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: check_version
+2023-01-02 15:01:33,543 INFO    SenderThread:7856 [dir_watcher.py:__init__():216] watching files in: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files
+2023-01-02 15:01:33,543 INFO    SenderThread:7856 [sender.py:_start_run_threads():928] run started: 2oesu2vu with start time 1672668093.02205
+2023-01-02 15:01:33,543 DEBUG   SenderThread:7856 [sender.py:send():303] send: summary
+2023-01-02 15:01:33,543 INFO    SenderThread:7856 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-02 15:01:33,543 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: check_version
+2023-01-02 15:01:33,695 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: run_start
+2023-01-02 15:01:33,706 DEBUG   HandlerThread:7856 [system_info.py:__init__():31] System info init
+2023-01-02 15:01:33,706 DEBUG   HandlerThread:7856 [system_info.py:__init__():46] System info init done
+2023-01-02 15:01:33,707 INFO    HandlerThread:7856 [system_monitor.py:start():150] Starting system monitor
+2023-01-02 15:01:33,707 INFO    SystemMonitor:7856 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-02 15:01:33,707 INFO    HandlerThread:7856 [system_monitor.py:probe():171] Collecting system info
+2023-01-02 15:01:33,708 INFO    SystemMonitor:7856 [interfaces.py:start():168] Started cpu
+2023-01-02 15:01:33,708 INFO    SystemMonitor:7856 [interfaces.py:start():168] Started disk
+2023-01-02 15:01:33,708 DEBUG   HandlerThread:7856 [system_info.py:probe():195] Probing system
+2023-01-02 15:01:33,709 INFO    SystemMonitor:7856 [interfaces.py:start():168] Started memory
+2023-01-02 15:01:33,709 INFO    SystemMonitor:7856 [interfaces.py:start():168] Started network
+2023-01-02 15:01:33,720 DEBUG   HandlerThread:7856 [system_info.py:_probe_git():180] Probing git
+2023-01-02 15:01:33,768 DEBUG   HandlerThread:7856 [system_info.py:_probe_git():188] Probing git done
+2023-01-02 15:01:33,769 DEBUG   HandlerThread:7856 [system_info.py:probe():241] Probing system done
+2023-01-02 15:01:33,769 DEBUG   HandlerThread:7856 [system_monitor.py:probe():180] {'os': 'macOS-13.0.1-x86_64-i386-64bit', 'python': '3.10.8', 'heartbeatAt': '2023-01-02T14:01:33.708712', 'startedAt': '2023-01-02T14:01:33.004648', 'docker': None, 'cuda': None, 'args': ('--train_data', 'data_train.csv:latest', '--model_config', '/Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/outputs/2023-01-02/15-00-24/random_forest_config.yml', '--export_artifact', 'model_export', '--random_seed', '42', '--val_size', '0.3', '--stratify', 'genre'), 'state': 'running', 'program': '/Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/run.py', 'codePath': 'starter/random_forest/run.py', 'git': {'remote': 'https://github.com/pmherp/genre_classification.git', 'commit': '9936aa10d27fac34eece36bf631f22f4d6bc0cfc'}, 'email': None, 'root': '/Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification', 'host': 'MBP-von-Philip.fritz.box', 'username': 'philipherp', 'executable': '/Users/philipherp/opt/anaconda3/envs/mlflow-984783334c15b85d4522fbb55abc5d1ecff40c51/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 926.3517189025879, 'used': 8.218456268310547}, 'memory': {'total': 16.0}}
+2023-01-02 15:01:33,769 INFO    HandlerThread:7856 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-02 15:01:33,769 INFO    HandlerThread:7856 [system_monitor.py:probe():184] Publishing system info
+2023-01-02 15:01:33,769 DEBUG   HandlerThread:7856 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-02 15:01:33,769 DEBUG   HandlerThread:7856 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-02 15:01:33,769 DEBUG   HandlerThread:7856 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-02 15:01:34,550 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/wandb-summary.json
+2023-01-02 15:01:34,550 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/requirements.txt
+2023-01-02 15:01:34,550 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/conda-environment.yaml
+2023-01-02 15:01:35,694 DEBUG   HandlerThread:7856 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-02 15:01:35,695 INFO    HandlerThread:7856 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-02 15:01:35,698 DEBUG   SenderThread:7856 [sender.py:send():303] send: files
+2023-01-02 15:01:35,698 INFO    SenderThread:7856 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-02 15:01:35,702 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-02 15:01:35,702 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: stop_status
+2023-01-02 15:01:35,914 DEBUG   SenderThread:7856 [sender.py:send():303] send: telemetry
+2023-01-02 15:01:36,290 INFO    Thread-16 :7856 [upload_job.py:push():143] Uploaded file /var/folders/xz/1n6z5vyx549flm33kdm1nwvc0000gn/T/tmpyke4_dvxwandb/1gugmpqz-wandb-metadata.json
+2023-01-02 15:01:36,560 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/conda-environment.yaml
+2023-01-02 15:01:36,560 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/wandb-metadata.json
+2023-01-02 15:01:36,560 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/output.log
+2023-01-02 15:01:36,996 DEBUG   SenderThread:7856 [sender.py:send():303] send: config
+2023-01-02 15:01:38,569 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/output.log
+2023-01-02 15:01:39,887 DEBUG   SenderThread:7856 [sender.py:send():303] send: summary
+2023-01-02 15:01:39,888 INFO    SenderThread:7856 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-02 15:01:40,578 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/wandb-summary.json
+2023-01-02 15:01:42,000 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: log_artifact
+2023-01-02 15:01:42,001 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: log_artifact
+2023-01-02 15:01:42,589 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/output.log
+2023-01-02 15:01:44,079 INFO    Thread-19 :7856 [upload_job.py:push():101] Uploaded file /Users/philipherp/.cache/wandb/artifacts/obj/md5/57/35fc1853979983b6bf5397b76a8517
+2023-01-02 15:01:44,158 INFO    Thread-18 :7856 [upload_job.py:push():101] Uploaded file /Users/philipherp/.cache/wandb/artifacts/obj/md5/2c/80dab22bb5f14862ef34ea6da1d929
+2023-01-02 15:01:44,171 INFO    Thread-23 :7856 [upload_job.py:push():101] Uploaded file /Users/philipherp/.cache/wandb/artifacts/obj/md5/31/1675a37201091b7a8deb88c6d4f778
+2023-01-02 15:01:44,171 INFO    Thread-20 :7856 [upload_job.py:push():101] Uploaded file /Users/philipherp/.cache/wandb/artifacts/obj/md5/48/6dabeb80f3d6c933744a1b3c778cf5
+2023-01-02 15:01:44,185 INFO    Thread-22 :7856 [upload_job.py:push():101] Uploaded file /Users/philipherp/.cache/wandb/artifacts/obj/md5/a6/1cba692b3c88bd4fa488ce353c1467
+2023-01-02 15:01:44,597 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/output.log
+2023-01-02 15:01:50,919 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-02 15:01:55,772 INFO    Thread-21 :7856 [upload_job.py:push():101] Uploaded file /Users/philipherp/.cache/wandb/artifacts/obj/md5/78/990545479010bdf462eb7d83f74350
+2023-01-02 15:01:56,836 INFO    SenderThread:7856 [sender.py:send_request_log_artifact():1222] logged artifact model_export - {'id': 'QXJ0aWZhY3Q6MzEwNDE1NjMz', 'digest': '0f324fe7986d417a8c01bcccb09cd19c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ4NTY3NzI5', 'latestArtifact': None}, 'version': 'latest'}
+2023-01-02 15:01:56,837 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: stop_status
+2023-01-02 15:01:57,456 DEBUG   SenderThread:7856 [sender.py:send():303] send: exit
+2023-01-02 15:01:57,456 INFO    SenderThread:7856 [sender.py:send_exit():442] handling exit code: 0
+2023-01-02 15:01:57,458 INFO    SenderThread:7856 [sender.py:send_exit():444] handling runtime: 23
+2023-01-02 15:01:57,459 INFO    SenderThread:7856 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-02 15:01:57,459 INFO    SenderThread:7856 [sender.py:send_exit():450] send defer
+2023-01-02 15:01:57,459 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:57,459 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-02 15:01:57,459 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:57,460 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-02 15:01:57,460 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 1
+2023-01-02 15:01:57,460 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:57,460 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-02 15:01:57,460 INFO    HandlerThread:7856 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-02 15:01:57,484 DEBUG   SystemMonitor:7856 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-02 15:01:57,484 DEBUG   SystemMonitor:7856 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-02 15:01:57,484 INFO    HandlerThread:7856 [interfaces.py:finish():175] Joined cpu
+2023-01-02 15:01:57,485 DEBUG   SystemMonitor:7856 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-02 15:01:57,485 INFO    HandlerThread:7856 [interfaces.py:finish():175] Joined disk
+2023-01-02 15:01:57,486 INFO    HandlerThread:7856 [interfaces.py:finish():175] Joined memory
+2023-01-02 15:01:57,486 INFO    HandlerThread:7856 [interfaces.py:finish():175] Joined network
+2023-01-02 15:01:57,487 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:57,487 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-02 15:01:57,487 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 2
+2023-01-02 15:01:57,487 DEBUG   SenderThread:7856 [sender.py:send():303] send: stats
+2023-01-02 15:01:57,488 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:57,488 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-02 15:01:57,488 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:57,489 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-02 15:01:57,489 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 3
+2023-01-02 15:01:57,489 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:57,489 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-02 15:01:57,489 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:57,489 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-02 15:01:57,489 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 4
+2023-01-02 15:01:57,490 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:57,490 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-02 15:01:57,490 DEBUG   SenderThread:7856 [sender.py:send():303] send: summary
+2023-01-02 15:01:57,490 INFO    SenderThread:7856 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-02 15:01:57,491 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:57,491 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-02 15:01:57,491 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 5
+2023-01-02 15:01:57,491 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:57,491 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-02 15:01:57,491 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:57,491 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-02 15:01:57,655 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/wandb-summary.json
+2023-01-02 15:01:57,779 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 6
+2023-01-02 15:01:57,779 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:57,779 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 6
+2023-01-02 15:01:57,780 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:57,780 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-02 15:01:58,086 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 7
+2023-01-02 15:01:58,086 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:58,087 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 7
+2023-01-02 15:01:58,087 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:58,087 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-02 15:01:58,088 INFO    SenderThread:7856 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-02 15:01:58,462 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-02 15:01:58,660 INFO    Thread-13 :7856 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/output.log
+2023-01-02 15:01:58,661 INFO    SenderThread:7856 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/config.yaml
+2023-01-02 15:01:58,661 INFO    SenderThread:7856 [dir_watcher.py:finish():392] scan: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files
+2023-01-02 15:01:58,661 INFO    SenderThread:7856 [dir_watcher.py:finish():406] scan save: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/requirements.txt requirements.txt
+2023-01-02 15:01:58,662 INFO    SenderThread:7856 [dir_watcher.py:finish():406] scan save: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/output.log output.log
+2023-01-02 15:01:58,663 INFO    SenderThread:7856 [dir_watcher.py:finish():406] scan save: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/config.yaml config.yaml
+2023-01-02 15:01:58,663 INFO    SenderThread:7856 [dir_watcher.py:finish():406] scan save: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/wandb-summary.json wandb-summary.json
+2023-01-02 15:01:58,663 INFO    SenderThread:7856 [dir_watcher.py:finish():406] scan save: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/conda-environment.yaml conda-environment.yaml
+2023-01-02 15:01:58,663 INFO    SenderThread:7856 [dir_watcher.py:finish():406] scan save: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/wandb-metadata.json wandb-metadata.json
+2023-01-02 15:01:58,664 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 8
+2023-01-02 15:01:58,664 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: poll_exit
+2023-01-02 15:01:58,671 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:01:58,672 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 8
+2023-01-02 15:01:58,684 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:01:58,688 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-02 15:01:58,688 INFO    SenderThread:7856 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-02 15:01:59,464 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-02 15:01:59,465 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: poll_exit
+2023-01-02 15:01:59,621 INFO    Thread-28 :7856 [upload_job.py:push():143] Uploaded file /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/conda-environment.yaml
+2023-01-02 15:01:59,632 INFO    Thread-26 :7856 [upload_job.py:push():143] Uploaded file /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/config.yaml
+2023-01-02 15:01:59,635 INFO    Thread-27 :7856 [upload_job.py:push():143] Uploaded file /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/wandb-summary.json
+2023-01-02 15:01:59,635 INFO    Thread-25 :7856 [upload_job.py:push():143] Uploaded file /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/output.log
+2023-01-02 15:02:00,470 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-02 15:02:00,470 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: poll_exit
+2023-01-02 15:02:01,149 INFO    Thread-24 :7856 [upload_job.py:push():143] Uploaded file /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/files/requirements.txt
+2023-01-02 15:02:01,358 INFO    Thread-12 (_thread_body):7856 [sender.py:transition_state():463] send defer: 9
+2023-01-02 15:02:01,360 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:02:01,360 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 9
+2023-01-02 15:02:01,361 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:02:01,361 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-02 15:02:01,361 INFO    SenderThread:7856 [file_pusher.py:join():173] waiting for file pusher
+2023-01-02 15:02:01,361 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 10
+2023-01-02 15:02:01,362 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:02:01,362 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 10
+2023-01-02 15:02:01,362 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:02:01,363 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-02 15:02:01,474 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-02 15:02:02,818 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 11
+2023-01-02 15:02:02,819 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: poll_exit
+2023-01-02 15:02:02,819 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:02:02,820 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 11
+2023-01-02 15:02:02,820 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:02:02,820 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-02 15:02:02,820 INFO    SenderThread:7856 [sender.py:transition_state():463] send defer: 12
+2023-01-02 15:02:02,821 DEBUG   SenderThread:7856 [sender.py:send():303] send: final
+2023-01-02 15:02:02,821 DEBUG   SenderThread:7856 [sender.py:send():303] send: footer
+2023-01-02 15:02:02,821 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: defer
+2023-01-02 15:02:02,821 INFO    HandlerThread:7856 [handler.py:handle_request_defer():162] handle defer: 12
+2023-01-02 15:02:02,821 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: defer
+2023-01-02 15:02:02,821 INFO    SenderThread:7856 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-02 15:02:02,823 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-02 15:02:02,823 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: poll_exit
+2023-01-02 15:02:02,823 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: server_info
+2023-01-02 15:02:02,824 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: get_summary
+2023-01-02 15:02:02,824 DEBUG   SenderThread:7856 [sender.py:send_request():317] send_request: server_info
+2023-01-02 15:02:02,825 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: sampled_history
+2023-01-02 15:02:03,054 INFO    MainThread:7856 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2023-01-02 15:02:03,054 INFO    MainThread:7856 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2023-01-02 15:02:03,055 INFO    MainThread:7856 [wandb_run.py:_footer_sync_info():3364] logging synced files
+2023-01-02 15:02:03,057 DEBUG   HandlerThread:7856 [handler.py:handle_request():139] handle_request: shutdown
+2023-01-02 15:02:03,057 INFO    HandlerThread:7856 [handler.py:finish():814] shutting down handler
+2023-01-02 15:02:03,822 INFO    WriterThread:7856 [datastore.py:close():279] close: /Users/philipherp/Documents/Udacity/Machine_Learning_DevOps/genre_classification/starter/random_forest/wandb/run-20230102_150133-2oesu2vu/run-2oesu2vu.wandb
+2023-01-02 15:02:04,058 INFO    SenderThread:7856 [sender.py:finish():1331] shutting down sender
+2023-01-02 15:02:04,059 INFO    SenderThread:7856 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-02 15:02:04,059 INFO    SenderThread:7856 [file_pusher.py:join():173] waiting for file pusher
+2023-01-02 15:02:04,085 INFO    MainThread:7856 [internal.py:handle_exit():77] Internal process exited
